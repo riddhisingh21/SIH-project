@@ -1,0 +1,26 @@
+<annotation>
+	<folder>U</folder>
+	<filename>Image_1725971059.5665672_2.jpg</filename>
+	<path>C:\Users\HP\Desktop\SIH\Data\U\Image_1725971059.5665672_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>U</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>218</xmin>
+			<ymin>278</ymin>
+			<xmax>360</xmax>
+			<ymax>423</ymax>
+		</bndbox>
+	</object>
+</annotation>

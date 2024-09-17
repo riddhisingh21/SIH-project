@@ -1,0 +1,26 @@
+<annotation>
+	<folder>K</folder>
+	<filename>Image_1725973293.025934_4.jpg</filename>
+	<path>C:\Users\HP\Desktop\SIH\Data\K\Image_1725973293.025934_4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>K</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>196</xmin>
+			<ymin>238</ymin>
+			<xmax>368</xmax>
+			<ymax>444</ymax>
+		</bndbox>
+	</object>
+</annotation>

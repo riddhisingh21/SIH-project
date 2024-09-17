@@ -1,0 +1,26 @@
+<annotation>
+	<folder>7</folder>
+	<filename>Image_1725265378.0596852_8.jpg</filename>
+	<path>C:\Users\HP\Desktop\SIH\Data\7\Image_1725265378.0596852_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>7</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>8</ymin>
+			<xmax>258</xmax>
+			<ymax>293</ymax>
+		</bndbox>
+	</object>
+</annotation>
