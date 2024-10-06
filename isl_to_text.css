@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background: linear-gradient(135deg, #1c1c1e, #29292b);
+    color: #fff;
+    line-height: 1.6;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f9fafb;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #58c6ff;
+    background: transparent;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+h2 {
+    font-size: 32px;
+    color: #f9fafb;
+}
+
+.gestures-translator, .translator {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#video {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #3b82f6;
+}
+
+.gestures img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero_img {
+    max-width: 30%;
+    height: min-content;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.translator p, #translation-result {
+    font-size: 20px;
+    color: #f9fafb;
+}
+
+#translation-result {
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+#language {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#speech-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#speech-button:hover {
+    background-color: #45a049;
+}

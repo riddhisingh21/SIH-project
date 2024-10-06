@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignScribe - Text/Speech to ISL</title>
+    <link rel="stylesheet" href="text_to_isl.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <img class="logo" src="logo (1).jpg" alt="SignScribe Logo">
+            <ul>
+                <li><a href="main_page.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="isl_text.html">ISL to Text</a></li>
+                <li><a href="text_to_isl.html">Text to ISL</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <h1>Convert Your Text or Speech to Indian Sign Language</h1>
+            <p class="tagline">Translate spoken or written words into ISL for a more inclusive experience</p>
+        </div>
+    </header>
+
+    <section class="translator-section">
+        <div class="container">
+            <h2>Text or Speech to ISL Translator</h2>
+            <p>Enter text or speak directly to translate to Indian Sign Language gestures in real-time.</p>
+
+            <div class="translator">
+                <div class="input-area">
+                    <h3>Enter Text</h3>
+                    <textarea id="text-input" placeholder="Enter your text here..." rows="4"></textarea>
+                    <button id="translate-text-btn">Translate Text</button>
+                </div>
+
+                <div class="speech-area">
+                    <h3>Speak Now</h3>
+                    <button id="start-speech-btn">Start Speech Recognition</button>
+                    <p id="speech-status">Press the button and start speaking...</p>
+                </div>
+
+                <div class="output-area">
+                    <h3>ISL Translation</h3>
+                    <div id="isl-output">
+                        <p><strong>Translation Output:</strong> <span id="isl-translation">Waiting for input...</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2024 SignScribe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="text_to_isl.js"></script>
+</body>
+</html>

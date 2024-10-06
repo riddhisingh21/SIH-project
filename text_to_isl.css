@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background: linear-gradient(135deg, #1c1c1e, #29292b);
+    color: #fff;
+    line-height: 1.6;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f9fafb;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #58c6ff;
+    background: transparent;
+}
+
+header {
+    background: url('hero-image-text-to-isl.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header .tagline {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.translator-section {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.translator {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.input-area, .speech-area, .output-area {
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #58c6ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3b82f6;
+}
+
+#isl-output {
+    margin-top: 20px;
+}
+
+#isl-translation {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
